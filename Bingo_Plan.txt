@@ -1,0 +1,50 @@
+Plan
+# 4 players 
+    # 3 players = computer
+    # 1 player = you
+        # input your name
+
+# Class
+    # Player 
+        # attributes
+            # name
+            # cat
+            # board
+    # Game
+        # attributes
+            # round num
+            # game order
+            # players
+        # functions
+            # start
+            # play
+                # choose number
+                # count_bingo
+                # new bingo_board
+            # result
+
+# Start game
+    # Print start game 
+    # Accept input from player
+    # Print name, bingo table of each player 
+        # number - random (from 1 to 9) for each player without repetition
+    # Print game order
+        
+# Play Game
+    # Play the game until there is someone with 3 bingo
+    # Go according to game order 
+    # One person - 1 round
+    # Print round start 
+    # Print this turn player 
+    # Choose a number & print it
+    	# if me - my choice among left numbers
+    	# if computer - random among left numbers
+    # Change the selected number to 0 in the board
+    # Print name, bingo count, bingo table of each player
+    # Print round end
+
+# End game
+    # Print rank, name, bingo count
+    	# Rank is determined by bingo count
+    		# Repetitive rank possible if bingo count is same
+    		# even if there is two rank 1, rank 2 will still exit
